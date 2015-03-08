@@ -4,3 +4,7 @@ We all have a very busy schedule to even take our eyes off the monitor. Because 
 So We have come up with a simple idea to change this.
 
 Just launch this application and know when you have to take a break. You don't have to sign up for this application.
+
+DEMO : https://jsfiddle.net/8ccer99x/
+
+Video : https://www.powtoon.com/show/cm9UAu7o0BP/take-a-break/#/
