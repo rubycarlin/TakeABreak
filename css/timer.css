@@ -1,0 +1,72 @@
+.CountDownContainer{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	left: 30%;
+	top: 15%;
+	background-color: #000099;
+}
+
+label{
+	font-size: 30px;
+	color: white;
+	font-family: cursive;
+	top: 50px;
+	bottom: 30px;
+	position: relative;
+	padding-left: 30px;
+}
+
+input{
+	top: 50px;
+	bottom: 30px;
+	position: relative;
+	text-align: center;
+	height: 40px;
+	left: 20px;
+}
+
+button{
+	top: 100px;
+	bottom: 30px;
+	position: relative;
+	width: 100px;
+	height: 50px;
+	left: 150px;
+}
+.countDown{
+	width: 200px;
+	height: 100px;
+	background-color: grey;
+	color: black;
+	top: 150px;
+	left: 30%;
+	position: relative;
+	text-align: center;
+	vertical-align: center;
+
+
+}
+h1{
+	top: 30px;
+	position: relative;
+}
+@media (min-width: 1200px) {
+	.CountDownContainer {
+		width: 500px;
+		height: 500px;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.CountDownContainer{
+		width: 300px;
+		height: 300px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.CountDownContainer {
+		width: 200px;
+		height: 200px;
+	}
+}

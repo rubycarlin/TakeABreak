@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/timer.css">
+    </head>
+    <body>
+        <div ng-app="timerApp">
+            <div ng-controller="timerCtrl as timer" class = "CountDownContainer">
+                <label>WORK TIME :</label> <input name="worktime" ng-model="timer.worktime" placeholder = "Time in minutes" ><br><br>
+                <label>BREAK TIME :</label> <input name="breaktime" ng-model="timer.breaktime" placeholder = "Time in minutes"><br><br>
+                <button type="button" name="start" ng-click="timer.startCountdown()">START</button>
+                <button type="button" name="reset" ng-click="timer.reset()">RESET</button>
+                <div class = "countDown"><h1>{{countDownLeft}}</h1></div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+        <script src="js/timer.js"></script>
+    </body>
+</html>
